@@ -3,6 +3,7 @@ import glob
 
 base = """
 .pytest:
+  stage: test
   image: gitlab-registry.cern.ch/fastmachinelearning/hls4ml-testing:0.1.base
   tags: 
     - docker

@@ -1,3 +1,8 @@
+stages:
+  - generate
+  - trigger
+  - test
+
 generator:
   stage: generate
   image: gitlab-registry.cern.ch/fastmachinelearning/hls4ml-testing:0.1.base
